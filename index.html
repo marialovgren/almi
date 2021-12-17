@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap 5.1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Style -->
+	<link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet" />
+    
+    <title>Maria Lövgren FED21M - Almi</title>
+</head>
+<body class="wrapper bg-white">
+    
+    <!-- 
+        * HEADER * 
+    -->
+    <header>    
+        <nav class="navbar navbar-expand-md navbar-light fixed-top"><!-- Flera bootstrap klasser för navbar som innehåller regler för en expanderbar meny. Navigeringen är fixerad i toppen av webbläsaren. --> 
+
+            <div class="container-fluid col-md-11"> 
+                <div class="col-3 col-md-2">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <img src="graphics/almi_logo.svg" alt="Almis logga" class="d-inline-block img-float col-12">
+                    </a>
+                </div>
+   
+                <!-- Ikon som ersätter menyn från liten skärm till medium skärm. Gör att den vanliga navigeringen "fälls" ihop och ersätts med denna ikonen. -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Länkarna i huvudmenyn -->
+                <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="#">Våra tjänster</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="#">Om Almi</a>
+                        </li>
+                        <li class="nav-item mt-2">
+                            <a class="nav-style mx-4 mx-lg-5" href="#">Kontakt</a>
+                        </li>
+                    </ul> 
+                </div>                  
+            </div> <!-- Här slutar diven som håller allt innehåll i headern -->
+        </nav>
+    </header>
+        
+    <!-- 
+        * MAIN 
+    -->
+    <main>
+        <!-- Bilden i hero är lagd som en bakgrundsbild -->
+        <section class="hero d-flex justify-content-center">
+            
+            <div class="row col-12 ">
+                <div class="col-8 align-items-end d-flex">
+                    <div class="col-7 m-3 d-flex align-items-center flex-column bg-light-orange">
+                        <h1 class="f-size-2 m-2">Almis nya uppstartslån</h1>
+                        <h2 class="f-size-5 m-2">För dig som vill ta ditt nya företag framåt!</h2> 
+                    </div>
+                </div>
+                    
+                <div class="col-4 col-md-3 my-3 d-flex justify-content-end align-items-end">
+                    <button type="button" class="btn btn-bg-pink">Ansök med BankID</button>
+                </div>
+            </div>
+
+        </section>
+       
+        <div class="container">
+            <div class="row">
+
+                <!-- CARD 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="my-2">
+                        <div class="card-body">
+                            <div class="col-11">
+                                <h3 class="card-title f-size-3 text-center fw-bold purple-font">Låna 10,000 kr</h3>
+                            </div>
+                        
+                            <div class="col-11 d-flex justify-content-center">
+                                <p class="card-text col-10">Ett lån på 10.000kr med en ränta på 5 %. Återbetalningstiden är 3 månader med en fast ränta på 500 kr per månad.</p>
+                            </div>
+                        
+                            <div class="d-flex justify-content-end align-items-end col-11 pt-2">
+                                <button type="button" class="btn btn-bg-purple">Ansök här</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Här slutar CARD 1 -->
+    
+                <!-- CARD 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="my-2">
+                        <div class="card-body">
+                            <div class="col-11">
+                                <h3 class="card-title f-size-3 text-center fw-bold purple-font">Låna 25,000 kr</h3>
+                            </div>
+                          
+                            <div class="col-11 d-flex justify-content-center">
+                                <p class="card-text col-10">Ett lån på 25.000kr med en ränta på 5 %. Återbetalningstiden är 6 månader med en fast ränta på 500 kr per månad.</p>
+                            </div>
+                          
+                            <div class="d-flex justify-content-end align-items-end col-11 pt-2">
+                                <button type="button" class="btn btn-bg-purple">Ansök här</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Här slutar CARD 2 -->
+    
+                <!-- CARD 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="my-2">
+                        <div class="card-body">
+                            <div class="col-11">
+                                <h3 class="card-title f-size-3 text-center fw-bold purple-font">Låna 50,000 kr</h3>
+                            </div>
+                          
+                            <div class="col-11 d-flex justify-content-center">
+                                <p class="card-text col-10">Ett lån på 50.000kr med en ränta på 5 %. Återbetalningstiden är 12 månader med en fast ränta på 500 kr per månad.</p>
+                            </div>
+                          
+                            <div class="d-flex justify-content-end align-items-end col-11 pt-2">
+                                <button type="button" class="btn btn-bg-purple">Ansök här</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Här slutar CARD 3 -->
+    
+            </div> <!-- Här slutar row som wrappar infon om de 3 olika lånen. -->
+        </div> <!-- Här slutar container -->
+          
+        <section class="loan-process col-12 p-3">
+            
+            <div class="col-12 col-md-6 my-3">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2>Så här fungerar vårt lån:</h2>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                        <div class="loanprocess-card card d-flex flex-row align-items-center col-11">
+                            <div class="loan-process-small-img col-2 align-self-center">
+                                <img src="graphics/ansökan-ikon-02.svg" alt="grafisk illustration på en ansökningsblankett">
+                            </div>
+                            <div class="card-body col-9">
+                                <h3 class="text-center purple-font">Steg 1</h3>
+                                <p>Skicka in din låneansökan. I ansökan fyller du i uppgifter om ditt företag, hur mycket du vill låna och vad lånet ska användas till. Du behöver bifoga ditt senaste bokslut och/eller delårssiffror.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                        <div class="loanprocess-card card d-flex flex-row align-items-center col-11">
+                            <div class="loan-process-small-img col-2 align-self-center">
+                                <img src="graphics/kredit-03.svg" alt="grafisk illustration på en kreditupplysning">
+                            </div>
+                            <div class="card-body col-9">
+                                <h3 class="text-center pink-font">Steg 2</h3>
+                                <p>Vi går igenom din ansökan och ser att alla uppgifter finns med. Vi tar en kreditupplysning på företaget och kontaktar dig om något behöver kompletteras.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                        <div class="loanprocess-card card d-flex flex-row align-items-center col-11">
+                            <div class="loan-process-small-img col-2 align-self-center">
+                                <img src="graphics/telefon-04.svg" alt="grafisk illustration på en telefon">
+                            </div>
+                            <div class="card-body col-9">
+                                <h3 class="text-center orange-font">Steg 3</h3>
+                                <p>Efter att vi gått igenom din ansökan kommer en Almirådgivare att kontakta dig. Tillsammans gör vi då en behovsanalys där vi går igenom din ansökan och ditt företags mål och utmaningar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 d-flex justify-content-center p-2">
+                        <div class="loanprocess-card card d-flex flex-row align-items-center col-11">
+                            <div class="loan-process-small-img col-2 align-self-center">
+                                <img src="graphics/beslut-05.svg" alt="grafisk illustration som ska symbolisera ett godkänt eller icke godkänt beslut">
+                            </div>
+                            <div class="card-body col-9">
+                                <h3 class="text-center green-font">Steg 4</h3>
+                                <p>När all information finns på plats behandlas ditt ärende. Så snart ärendet är beslutat får du ett besked.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- Här slutar row -->
+            </div> <!-- Här slutar container som wrappar korten med de 4 olika lånstegen -->
+           
+            <!-- Här är en stor grafisk illustration över hela låneprocessen -->
+            <div class="d-flex justify-content-center col-12 p-2">
+                <div class="col-10 col-md-6">
+                    <img class="img-float" src="graphics/låneprocess-utan-text-06.svg" alt="en grafisk illustration över lånprocessen på 4 steg">
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-8 d-flex justify-content-center">
+                    <div class="d-flex flex-column col-8 col-md-6">
+                        <div class="my-3 d-flex justify-content-start align-items-start">
+                            <button type="button" class="btn btn-bg-orange">Boka ett möte med oss</button>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex col-8 col-md-6 d-flex justify-content-end">
+                        <div class="my-3 d-flex justify-content-start align-items-start">
+                            <button type="button" class="btn btn-bg-orange">Ansök här</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!-- Här slutar loan-process som wrappar delen om lånprocessen -->   
+        
+        <section class="social-proof col-12 m-3">
+            <div class="container d-flex justify-content-center">
+                <div class="row d-flex justify-content-center col-12 col-md-8">
+                    <div class="col-4 col-md-3">
+                        <img class="img-float col-12" src="images/portrait-sm.png" alt="porträtt på en nöjd Almi-kund">
+                    </div>
+        
+                    <div class="ms-2 col-7 col-md-7 d-flex flex-column justify-content-center">
+                        <h3 class="f-size-3">Prisbelönt app ger godare skolmat</h3>
+                        <h4 class="f-size-5">Innovationsstöd blev räddningen för Mitt Gastronomi.</h4>
+                        
+                        <div class="my-3 d-flex justify-content-start align-items-start">
+                            <button type="button" class="btn btn-bg-pink">Läs mer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container col-12">
+                <article class="d-flex flex-column flex-md-row col-12 justify-content-center">
+                    
+                    <div class="info-text col-12 col-md-6 d-flex justify-content-center bg-light-orange">
+                        <div class="col-10 pt-4 align-self-center">
+                            <h3 class="text-center">Almis uppstartslån</h3>
+                            <p>Almis Uppstartslån är ett så kallat villkorslån avsett för företag med innovationsprojekt i tidiga skeden. Lånet kan exempelvis användas till produktutveckling, skydd av immateriella tillgångar eller marknadsundersökningar. Efter kreditprövning sätts villkoren på lånet utifrån en bedömning av företagets ekonomiska situation och projektets förutsättningar. </p>
+                            
+                            <div class="my-3 d-flex justify-content-end">
+                                <button type="button" class="btn btn-bg-white">Ansök här</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="col-12">
+                            <img class="info-img img-float col-12" src="images/almi-team.jpg" alt="ett fotografi över personer som representerar Almis kundgrupp">
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+            
+            <div class="container col-12 pb-5">
+                <div class="d-flex flex-column flex-md-row-reverse col-12">
+        
+                    <div class="info-text col-12 col-md-6 bg-light-orange">
+                        <div class="container d-flex justify-content-center flex-column col-10">
+                            <div class="col-12 pt-2 d-flex align-items-center">
+                                <img src="graphics/check.svg" alt="en grafisk illustration som ersätter punkterna i en lista" class="col-1">
+                                <p class="f-size-3 m-3">För företag som har varit verksamma i mindre än 3 år</p>
+                            </div>
+    
+                            <div class="col-12 pt-2 d-flex align-items-center">
+                                <img src="graphics/check.svg" alt="en grafisk illustration som ersätter punkterna i en lista" class="col-1">
+                                <p class="f-size-3 m-3">Låna 10 000, 25 000 eller 50 000 kr</p>
+                            </div>
+    
+                            <div class="col-12 pt-2 d-flex align-items-center">
+                                <img src="graphics/check.svg" alt="en grafisk illustration som ersätter punkterna i en lista" class="col-1">
+                                <p class="f-size-3 m-3">Pengarna betalas ut inom 7 dagar </p>
+                            </div> 
+                        </div>                       
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <img class="info-img img-float col-12" src="images/computer.jpg" alt="ett fotografi som ska representera en Almi-kund som jobbar med sin dator">
+                    </div>
+
+                </div>
+            </div>
+            
+        </section> <!-- Här slutar sectionen info -->
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="col-12 d-flex flex-column flex-md-row">    
+        <nav class="container navbarfooter-nav d-flex flex-column flex-md-row col-6 col-md-7 justify-content-center">
+
+            <div class="navbar-nav d-flex col-12 col-md-4 d-flex justify-content-center">
+                <div class="d-flex justify-content-center flex-column m-3">
+                    <div>
+                        <h4 class="f-size-2">Våra tjänster</h4>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a class="nav-link" href="#">Affärsutveckling</a>
+                        <a class="nav-link" href="#">Lån</a>
+                        <a class="nav-link" href="#">Riskkapital</a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="navbar-nav d-flex col-12 col-md-4 d-flex justify-content-center">
+                <div class="d-flex justify-content-center flex-column m-3">
+                    <div>
+                        <h4 class="f-size-2">Om Almi</h4>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a class="nav-link" href="#">Karriär</a>
+                        <a class="nav-link" href="#">Om webbplatsen</a>
+                        <a class="nav-link" href="#">Hållbarhet</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-nav d-flex col-12 col-md-4 d-flex justify-content-center">
+                <div class="d-flex justify-content-center flex-column m-3">
+                    <div>
+                        <h4 class="f-size-2">Kontakt</h4>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a class="nav-link" href="#">Kontakta oss</a>
+                        <a class="nav-link" href="#">Våra rådgivare</a>
+                        <a class="nav-link" href="#">Almi Invest</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="d-flex flex-column col-12 col-md-5">
+            <div class="my-3 d-flex justify-content-center">
+                <button type="button" class="btn btn-bg-white-purple">Ansök här</button>
+            </div>
+            
+            <div class="social-media-links d-flex col-12 justify-content-evenly my-4">
+                <div class="col-2">
+                    <a href="#">
+                        <img class="img-float col-12 d-inline" src="graphics/facebook.png" alt="Länk till Almis Facebook-sida">
+                    </a>
+                </div>
+                
+                <div class="col-2">
+                    <a href="#">
+                        <img class="img-float col-12 d-inline" src="graphics/linkedin.png" alt="Länk till Almis LinkedIn-sida">
+                    </a>
+                </div>
+                
+                <div class="col-2">
+                    <a href="#">
+                        <img class="img-float col-12 d-inline" src="graphics/youtube.png" alt="Länk till Almis YouTube-sida">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     
+</body>
+</html>
+
+
+     
+    
+
