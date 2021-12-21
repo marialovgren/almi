@@ -3,7 +3,8 @@ Designed a [one pager](https://almi-maria-lovgren.netlify.app) using raster grap
 ### Languages used:
 - HTML
 - CSS
-- JavaScript
+- Vanilla JavaScript
+- Bootstrap 5
 
 
 ## Table of contents
