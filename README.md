@@ -1,5 +1,8 @@
 # almi
 Designed a [one pager](https://almi-maria-lovgren.netlify.app) using raster graphics editor, vector graphics editor and prototyping tool.
+
+Almi was a schoolproject that I worked on by myself. The task was to create a one-pager and to rebrand an existing website with an imaginary new product. I started with a lo-fi wireframe for mobile and desktop and moved on to a hi-fi wireframe. In the end I created the website using HTML, CSS and JavaScrip. 
+
 ### Languages used:
 - HTML
 - CSS
